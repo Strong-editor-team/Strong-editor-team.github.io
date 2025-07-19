@@ -1,0 +1,163 @@
+*
+    box-sizing: border-box
+
+    font-family: "Rubik", sans-serif
+    font-optical-sizing: auto
+    font-weight: 400
+    font-style: normal
+
+    color: white
+
+a
+    text-decoration: none
+
+    &.btn
+        background: #6a0dac
+        padding: 18px 50px
+
+        border-radius: 8px
+
+h1
+    font-size: 52px
+    font-weight: 500
+
+h2
+    font-size: 42px
+    font-weight: 500
+
+body
+    margin: 0
+    background: #272727
+
+    .container
+        width: 100%
+        max-width: 1200px
+        margin: 0 auto
+
+    header
+        background: black
+
+        height: 20vh
+
+        .wrapper
+            height: 100%
+
+            display: flex
+            justify-content: space-between
+            align-items: center
+
+            padding-inline: 40px
+
+            .logo, .logo img
+                width: 90px
+                height: 90px
+
+            .links
+                display: flex
+                gap: 25px
+
+                font-size: 16px
+
+    .intro
+        margin-top: 90px
+
+        .info
+            display: flex
+            justify-content: start
+            align-items: center
+            gap: 140px
+
+            .left
+                h1
+                    max-width: 560px
+                    margin-inline: 20px
+
+            .right
+                p
+                    font-size: 22px
+                    font-weight: 200
+
+        .image
+            margin-top: 80px
+
+            padding-inline: 40px
+
+            img
+                border-radius: 20px
+
+                width: 100%
+
+    .our-team
+        margin-top: 255px
+        margin-bottom: 135px
+
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 40px
+
+        .left
+            p
+                font-size: 20px
+
+        .right
+            display: grid
+            grid-template-columns: repeat(2, 1fr)
+            grid-template-rows: repeat(2, 1fr)
+            grid-column-gap: 20px
+            grid-row-gap: 20px
+
+            img
+                width: 220px
+                height: 220px
+
+                border-radius: 15px
+
+    .main-developers
+        padding-block: 135px
+
+        text-align: center
+
+        background-image: linear-gradient(0.5turn,rgba(39,39,39,1) 0%, rgba(41,41,41,1) 22%,rgba(109,32,168,1) 50%,rgba(109,32,168,1) 50%,rgba(109,32,168,1) 50%,rgba(41,41,41,1) 100%,rgba(39,39,39,1) 100%)
+
+        .info
+            max-width: 570px
+            margin: 0 auto
+
+            p
+                font-size: 24px
+
+        .developers
+            margin-top: 105px
+
+            display: grid
+            grid-template-columns: repeat(3, 1fr)
+            grid-template-rows: repeat(2, 1fr)
+            grid-column-gap: 40px
+            grid-row-gap: 90px
+
+            .item
+                max-width: 360px
+
+                display: flex
+                flex-direction: column
+
+                align-items: center
+
+                font-weight: 300
+
+                .avatar, .avatar img
+                    width: 200px
+                    height: 200px
+
+                    border-radius: 50%
+
+                .name
+                    font-size: 22px
+                    margin-bottom: 0
+
+                .role
+                    font-size: 14px
+
+                .description
+                    font-size: 15px
