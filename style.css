@@ -4,11 +4,11 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  color: white;
 }
 
 a {
   text-decoration: none;
+  color: white;
 }
 a.btn {
   background: #6a0dac;
@@ -29,6 +29,7 @@ h2 {
 body {
   margin: 0;
   background: #272727;
+  color: white;
 }
 body .container {
   width: 100%;
@@ -60,7 +61,7 @@ body .intro {
 }
 body .intro .info {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   gap: 140px;
 }
@@ -79,6 +80,9 @@ body .intro .image {
 body .intro .image img {
   border-radius: 20px;
   width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 body .our-team {
   margin-top: 255px;
@@ -145,3 +149,100 @@ body .main-developers .developers .item .role {
 body .main-developers .developers .item .description {
   font-size: 15px;
 }
+body .our-game-collection {
+  text-align: center;
+}
+body .our-game-collection .blocks {
+  margin-top: 90px;
+  display: grid;
+  grid-template-columns: repeat(2, 560px);
+  grid-template-rows: repeat(2, 438px);
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+body .our-game-collection .blocks .block .image {
+  width: 100%;
+  height: 70%;
+  border-radius: 15px 15px 0 0;
+}
+body .our-game-collection .blocks .block .info {
+  height: 30%;
+  background: white;
+  color: black;
+  padding: 27px 30px;
+  border-radius: 0 0 15px 15px;
+  text-align: left;
+}
+body .our-game-collection .blocks .block .info .title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 450;
+}
+body .game-blocks {
+  margin-top: 135px;
+}
+body .game-blocks .block {
+  padding-block: 135px;
+}
+body .game-blocks .block.arena-of-creation {
+  background: white;
+  color: black;
+}
+body .game-blocks .block.arena-of-creation .inner a.btn {
+  color: white;
+  background: black;
+}
+body .game-blocks .block.arena-of-creation .inner .line {
+  background: black;
+}
+body .game-blocks .block.the-last-crystal-of-life {
+  background: #6a0dac;
+  color: white;
+}
+body .game-blocks .block.the-last-crystal-of-life .inner a.btn {
+  color: #6a0dac;
+  background: white;
+}
+body .game-blocks .block.the-last-crystal-of-life .inner .line {
+  background: white;
+}
+body .game-blocks .block.free-line-of-time {
+  background: white;
+  color: black;
+}
+body .game-blocks .block.free-line-of-time .inner a.btn {
+  color: white;
+  background: black;
+}
+body .game-blocks .block.free-line-of-time .inner .line {
+  background: black;
+}
+body .game-blocks .block .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+body .game-blocks .block .inner .left {
+  width: 560px;
+}
+body .game-blocks .block .inner .left .line {
+  width: 200px;
+  height: 3px;
+}
+body .game-blocks .block .inner .left .description {
+  font-size: 20px;
+  line-height: 1.55;
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+body .game-blocks .block .inner .left .description strong {
+  font-weight: 500;
+}
+body .game-blocks .block .inner .left a.btn {
+  border-radius: 25px;
+  padding-inline: 60px;
+}
+body .game-blocks .block .inner .right img {
+  border-radius: 15px;
+}/*# sourceMappingURL=style.css.map */
