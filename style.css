@@ -6,6 +6,10 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -91,6 +95,7 @@ body .our-team {
   justify-content: center;
   align-items: center;
   gap: 40px;
+  scroll-margin-top: 200px;
 }
 body .our-team .left p {
   font-size: 20px;
@@ -151,6 +156,7 @@ body .main-developers .developers .item .description {
 }
 body .our-game-collection {
   text-align: center;
+  scroll-margin-top: 200px;
 }
 body .our-game-collection .blocks {
   margin-top: 90px;
